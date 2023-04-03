@@ -1,0 +1,73 @@
+[
+    {
+        "brand":"realme",
+        "project":"21676",
+        "name":"default",
+        "product":"RMX3363",
+        "device":"RE54ABL1",
+        "model":"RMX3363",
+	    "first_api_level":"30",
+		"manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3363/RE54ABL1:13/TP1A.220905.001/R.d80e32-1430a-b3b12:user/release-keys"
+            }
+        ]
+    },
+	{
+        "brand":"realme",
+        "project":"21676",
+        "name":"tr",
+        "product":"RMX3363TR",
+        "device":"RE54ABL1",
+        "model":"RMX3363",
+	    "first_api_level":"30",
+		"manufacturer":"realme"
+    },
+	{
+        "brand":"realme",
+        "project":"21676",
+        "name":"ru",
+        "product":"RMX3363RU",
+        "device":"RE54ABL1",
+        "model":"RMX3363",
+	    "first_api_level":"30",
+		"manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3363RU/RE54ABL1:13/TP1A.220905.001/R.d80e32-1430a-b3b12:user/release-keys"
+            }
+        ]
+    },
+	{
+        "brand":"realme",
+        "project":"21676",
+        "name":"t2",
+        "product":"RMX3363T2",
+        "device":"RE54ABL1",
+        "model":"RMX3363",
+	    "first_api_level":"30",
+		"manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3363T2/RE54ABL1:13/TP1A.220905.001/R.d80e32-1430a-b3b12:user/release-keys"
+            }
+        ]
+    },
+	{
+        "brand":"realme",
+        "project":"21676",
+        "name":"eea",
+        "product":"RMX3363EEA",
+        "device":"RE54ABL1",
+        "model":"RMX3363",
+	    "first_api_level":"30",
+		"manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3363EEA/RE54ABL1:13/TP1A.220905.001/R.d80e32-1430a-b3b12:user/release-keys"
+            }
+        ]
+    }
+
+]

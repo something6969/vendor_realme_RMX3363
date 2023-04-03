@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20221014</version>
+    <toggle>1</toggle>
+    <features>
+
+        <feature name="OplusDEE" enable="1">
+            <DC>enable</DC>
+            <globalLTM>enable</globalLTM>
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                        <mode>LTM</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.gallery3d">
+                <scene type="Application">
+                    <action>
+                        <mode>LTM</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oplus.camera">
+                <scene type="Application">
+                    <action>
+                        <mode>LTM</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="DispKeventThread" enable="1"/>
+
+        <feature name="hecate" enable="1"/>
+
+        <feature name="DecorClientComposition" enable="1"/>
+
+        <feature name="osie" enable="1">
+            <application name="com.instagram.android">
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>2</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>2</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>ModalActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>ModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>IGTVDestinationActivity</layer>
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>1</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>TransparentModalActivity</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                    <layer>KHCD</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>com.instagram.android</layer>
+                    <layer>KHCD</layer>
+                    <layer>KHCD</layer>
+                    <layer>KHCD</layer>
+                        <action>
+                            <mode>DPP</mode>
+                            <targetLayerIndex>0</targetLayerIndex>
+                            <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                        </action>
+                </scene>
+            </application>
+            <application name="com.tencent.mm">
+                <scene type="ExactLayer">
+                    <layer>SnsTimeLineUI</layer>
+                    <layer>SnsBrowseUI</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SnsGalleryUI</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.ugc.aweme">
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>LiveDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>PopupWindow</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SplashActivity</layer>
+                    <layer>SplashActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>LiveDetailActivity</layer>
+                    <layer>LiveDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MusicDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.68,0.01885,0.0685,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>UserProfileActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SearchResultActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MusicDetailActivity</layer>
+                    <layer>MusicDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MusicDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>PopupWindow</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SearchResultActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>UserProfileActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>VideoFollowFeedDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>VideoPublishActivity</layer>
+                    <layer>VideoPublishPreviewActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>aweme</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>aweme</layer>
+                    <layer>aweme</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>aweme</layer>
+                    <layer>HotSpotDetailActivity</layer>
+                    <layer>HotSpotDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HotSpotDetailActivity</layer>
+                    <layer>HotSpotDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>DetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.smile.gifmaker">
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>UserProfileActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <layer>UserProfileActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>MyProfileActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>2</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>ReviewActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>HomeActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <layer>UserProfileActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>3</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>UserProfileActivity</layer>
+                    <layer>PhotoDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,0.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.tencent.weishi">
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MaterialDetailActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>FeedActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>FeedActivity</layer>
+                    <layer>FeedActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>Toast</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>Toast</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>weishi</layer>
+                    <layer>VideoLiteEditorActivity</layer>
+                    <action>
+                        <mode>DPP</mode>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <parameter>0.88,0.00885,0.0785,0.5,1.5,0.0,0.0,0.0</parameter>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+    </features>
+</filter-conf>
